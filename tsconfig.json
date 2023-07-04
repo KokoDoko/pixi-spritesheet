@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictPropertyInitialization": false,
+        "module": "ES6",
+        "sourceMap": true,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports" : true,
+        "lib": [
+            "es6",
+            "dom"
+        ]
+    },
+    "include": [
+        "./src/**/*",
+        "globals.d.ts"
+    ]
+}
